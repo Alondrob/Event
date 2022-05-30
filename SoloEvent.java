@@ -23,6 +23,11 @@ public class SoloEvent extends Event{
 			setRegistrationFee(0.00);
 		}
 	}
+	// why it wouldn't work ?
+	
+//	public void registerEvent() {
+//		super.registerEvent();
+//	}
 
 	public int getParticipantNo() {
 		return participantNo;
